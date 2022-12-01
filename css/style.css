@@ -1,0 +1,463 @@
+
+/* ====================
+    All Common Css 
+=================*/
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --inter:'Inter', sans-serif;
+    --jura:'Jura', sans-serif;
+}
+
+
+body {
+    font-family:var(--poppins);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a {
+    display:inline-block;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+}
+ul,ol {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+body,html{
+    scroll-behavior:smooth;
+}
+select:focus,input:focus,button:focus {
+    border:none;
+    outline:none;
+    box-shadow:none;
+}
+
+
+
+
+
+
+
+
+
+/* ====================
+    All Common Css 
+=================*/
+
+
+
+
+
+
+
+
+/*==========================
+    Navigation Section Start 
+============================*/
+.navbar {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+
+}
+.navbar-nav .nav-item {
+    margin:10px;
+    
+}
+.navbar-nav .navbar-brand img {
+    color:white;
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+   
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 112%;
+    font-family:var(--poppins);
+
+    text-align: center;
+    letter-spacing: 0.15em;
+    color:white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color:#ffffff;
+    
+
+}
+
+/*==========================
+    Navigation Section End 
+============================*/
+
+
+
+
+/*==========================
+    Banner Section Start 
+============================*/
+#banner_section {
+    
+    background:url(../images/Banner.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+#banner_section .banner_overlay {
+    background: linear-gradient(82.06deg, rgba(1, 1, 1, 0.62) 46.14%, rgba(31, 169, 180, 0) 101.22%);
+    box-shadow: inset 0px 115px 83px rgba(0, 0, 0, 0.7);
+    padding-top:187px;
+    
+    
+}
+
+#banner_section  .banner_main {
+   
+}
+#banner_section  .banner_main .banner_image {
+    margin-bottom:18px;
+}
+#banner_section  .banner_main .banner_text h4 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 112%;
+
+    font-family:var(--inter);
+    
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+#banner_section  .banner_main .banner_text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:var(--inter);
+
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+#banner_section  .banner_main .banner_button a {
+    background: #244B49;
+    border-radius: 5px;
+    color:white;
+    padding:16px 20px;
+    margin-right:30px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 112%;
+    font-family:var(--inter);
+
+    text-align: center;
+    letter-spacing: 0.15em;
+
+
+}
+#banner_section  .banner_main .banner_button a:hover {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 112%;
+    background:white;
+
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #173157;
+
+
+}
+
+#banner_section  .banner_main .banner_button a i {
+    margin-right:10px;
+
+}
+#banner_section  .banner_main .individual_text {
+    text-align:end;
+
+}
+#banner_section  .banner_main .individual_text p {
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 112%;
+    font-family:var(--poppins);
+
+    letter-spacing: 0.15em;
+
+    color: #D9D9D9;
+    margin-bottom:20px;
+
+}
+
+
+/*==========================
+    Banner Section End 
+============================*/
+
+
+
+/*==========================
+    slider Section Start 
+============================*/
+#slider_section {
+
+}
+#slider_section .slider_main {
+    
+}
+#slider_section .slider_main .slider_item .item {
+    margin-right:10px;
+    height:300px;
+    width:300px;
+    position:relative;
+    
+}
+#slider_section .slider_main .slider_item .item .overlay {
+    
+    width:100%;
+    height:100%;
+    background:rgba(22, 39, 65, 0.78);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    left:0;
+    top:0%;
+    visibility:hidden;
+    opacity:0;
+    
+}
+
+#slider_section .slider_main .slider_item .overlay {
+    
+    
+}
+
+#slider_section .slider_main .slider_item .item.slick-center .overlay {
+    
+    visibility:visible;
+    opacity:1;
+    
+}
+#slider_section .slider_main .slider_item .item img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    vertical-align:middle;
+
+    
+} 
+
+
+
+/*==========================
+    slider Section End 
+============================*/
+
+
+
+/*==========================
+    Entertainment Section Start 
+============================*/
+
+
+#entertainment_section {
+    background: #173157;
+    padding:78px 0px;
+}
+
+#entertainment_section .entertainment_main .entertainment_item {
+    
+}
+#entertainment_section .entertainment_main .entertainment_left {
+    
+}
+#entertainment_section .entertainment_main .entertainment_left h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 112%;
+    font-family:var(--inter);
+
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+    padding-right:0px;
+}
+#entertainment_section .entertainment_main .entertainment_left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:var(--poppins);
+
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+#entertainment_section .entertainment_main .entertainment_left a {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 112%;
+    font-family:var(--inter);
+
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #173157;
+    background:white;
+    padding:16px 20px;
+    border-radius:5px;
+}
+
+#entertainment_section .entertainment_main .entertainment_image img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    vertical-align:middle; 
+}
+
+
+/*==========================
+    Entertainment Section End 
+============================*/
+
+
+/*==========================
+    Footer-icons Section Start 
+============================*/
+
+footer {
+    background:#101C2E;
+    
+}
+#footer_icons {
+    padding:30px 0px;
+}
+#footer_icons .icons_main{
+
+}
+#footer_icons .icons_main .icons ul li a {
+   
+   
+   
+}
+#footer_icons .icons_main .icons{
+
+}
+
+
+/*==========================
+    Footer-icons Section End 
+============================*/
+
+
+
+
+/*==========================
+    Footer-items Section Start 
+============================*/
+#footer_items {
+    padding-bottom:30px;
+}
+#footer_items .footer_items_main {
+
+}
+#footer_items .footer_items_main .items {
+    gap:10px;
+}
+#footer_items .footer_items_main .items .item {
+    width:250px;
+}
+
+#footer_items .footer_items_main .items .item  h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family:var(--inter);
+
+    text-transform:capitalize;
+    color: #FFFFFF;
+}
+#footer_items .footer_items_main .items .item ul li a {
+    
+    font-family:var(--inter);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+
+
+
+    color: #E4E4E4;
+}
+#footer_items .footer_items_main .items .item:nth-child(2) p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:var(--inter);
+    margin-top:10px;
+    
+    color: #E4E4E4;
+}
+ #footer_items .footer_items_main .items .item:nth-child(1) {
+   width:165px  ;
+}
+#footer_items .footer_items_main .items .item:nth-child(2) {
+   width:335px;
+   margin-right:30px;
+}
+
+
+
+
+
+
+/*==========================
+    Footer-items Section End 
+=======
+
+
+/*==========================
+    Footer-bottom Section Start 
+============================*/
+#footer_bottom {
+    background:#080F18;
+    padding:19px 0px;
+    text-align:center;
+}
+#footer_bottom p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:var(--jura);
+
+
+    
+}
+#footer_bottom p span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:var(--jura);
+
+
+    color: #FFAB34;
+
+
+    
+}
+
+
+/*==========================
+    Footer-bottom Section End 
+============================*/
